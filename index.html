@@ -4,12 +4,108 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
+  <title>BOOKMARK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <section id="site-hero">
+    <div class="container">
+      <header class="site-header flex between align">
+        <div class="site-header__logo">
+          <a href="#">
+            <img src="./img/logo.svg" alt="main-logo">
+          </a>
+        </div>
+        <nav class="site-header__nav navigation"> 
+          <ul class="navigation__list flex">
+            <li class="navigation__item"><a class="navigation__link" href="#">FEATURES</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#">PRICING</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#">CONTACT</a></li>
+            <li class="navigation__item"><a class="navigation__link btn--headr" href="#">LOGIN</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero flex align">
+        <div class="hero__des">
+          <h2 class="hero__title">A Simple Bookmark Manager</h2>
+          <p class="hero__text regular">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <div class="hero__btns">
+            <a class="hero__btn btn" target="_blank" href="#">Get it on Chrome</a>
+            <a class="hero__btn btn" target="_blank" href="#">Get it on Firefox</a>
+          </div>
+        </div>
+        <div class="hero__imgs">
+          <img class="hero__img" src="./img/tablet.svg" alt="img-main">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="futures">
+    <div class="container">
+      <header class="futures__header">
+        <h2 class="futures__title bold tex">Features</h2>
+        <p class="futures__text regular tex margin">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        <div class="futures__item margin">
+          <button class="futures__btn futures__btn--activ">ff</button>
+          <button class="futures__btn regular">Speedy Searching</button>
+          <button class="futures__btn regular">Easy Sharing</button>
+        </div>
+      </header>
+      <div class="bookmark flex align between">
+        <div class="bookmark__des">
+          <h2 class="bookmark__title bold">Bookmark in one click</h2>
+          <p class="bookmark__text regular">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+          <a class="bookmark__btn btn" href="#">More Info</a>
+        </div>
+        <div class="bookmark__imgs">
+          <img src="./img/ftures-img.svg" alt="futures-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="extensions">
+    <div class="container">
+      <header class="extensions__header">
+        <h2 class="extensions__title">Download the extension</h2>
+        <p class="extensions__text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      </header>
+      <ul class="extensions__list">
+        <li class="extensions__item extension extension__chrome">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Chrome</h3>
+            <p class="extension__text">Minimum version 62</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link btn" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+        <li class="extensions__item extension extension__firefox">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Firefox</h3>
+            <p class="extension__text">Minimum version 55</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link btn" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+        <li class="extensions__item extension extension__opera">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Opera</h3>
+            <p class="extension__text">Minimum version 46</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link btn" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
 </body>
 </html>
